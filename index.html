@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ayesha Zafar — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* Quick grid style for projects */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .projects-grid .card {
+      background: var(--card, #fff);
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .projects-grid .card h3 a {
+      color: var(--primary, #2F5A49);
+      text-decoration: none;
+    }
+    .projects-grid .card h3 a:hover {
+      color: var(--accent, #8edbbd);
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Ayesha Zafar</h1>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="skills.html">Skills</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- About Section -->
+    <section class="intro">
+      <img src="images/img6.jpg" alt="Profile" class="profile-photo" />
+      <div class="intro-text">
+        <h2>About Me</h2>
+        <p>Hi — I’m Ayesha, a student of Web Engineering. I enjoy building accessible, responsive web pages and learning modern web development workflows.</p>
+        <p>In this portfolio you’ll see my projects, interests, and contact details.</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/WebEngg-Backend" target="_blank">WebEngg-Backend</a></h3>
+          <p>Backend for Web Engineering assignments and projects.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/Dentist-Patient-" target="_blank">Dentist-Patient</a></h3>
+          <p>System for managing dentist and patient interactions.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/lab1-hello-world" target="_blank">Lab1 - Hello World</a></h3>
+          <p>Basic HTML project for Web Engineering Lab 1.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/Codealpha_EventRegister" target="_blank">Codealpha Event Register</a></h3>
+          <p>Event registration system built with TypeScript.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/E-comm" target="_blank">E-comm</a></h3>
+          <p>Simple e-commerce project in TypeScript.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/LMS" target="_blank">LMS</a></h3>
+          <p>Learning Management System developed with TypeScript.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/task-management" target="_blank">Task Management</a></h3>
+          <p>Task management application with TypeScript.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/Inventory-Management-System" target="_blank">Inventory Management System</a></h3>
+          <p>Python-based system to manage inventory records.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/Blog-Back-end-System" target="_blank">Blog Back-end System</a></h3>
+          <p>Python backend for a blogging platform.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/Backend-AI-WAF" target="_blank">Backend AI WAF</a></h3>
+          <p>Python backend for AI-powered Web Application Firewall.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/TMS-Backend" target="_blank">TMS Backend</a></h3>
+          <p>Transport Management System backend.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/url-shortener-backend" target="_blank">URL Shortener Backend</a></h3>
+          <p>JavaScript project for shortening URLs.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/ayesha00zafar/town-epidemic-simulator" target="_blank">Town Epidemic Simulator</a></h3>
+          <p>Private TypeScript project simulating epidemic spread.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2024 Ayesha Zafar — CS344 Web Engineering</p>
+    </div>
+  </footer>
+</body>
+</html>
